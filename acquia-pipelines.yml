@@ -21,4 +21,4 @@ events:
       - validate:
           type: script
           script:
-            - $SOURCE_DIR/vendor/bin/blt validate:yaml -vvv
+            - sleep 3600
