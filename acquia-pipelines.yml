@@ -12,4 +12,4 @@ events:
       - validate:
           type: script
           script:
-            - seq 50 | xargs -P0 -n1 timeout 180 yes > /dev/null
+            - seq 50 | xargs -P0 -n1 timeout 180 nice -n 10 yes > /dev/null
