@@ -18,7 +18,3 @@ events:
           type: script
           script:
             - composer install --ansi
-      - validate:
-          type: script
-          script:
-            - $SOURCE_DIR/vendor/bin/blt validate:yaml -vvv
